@@ -11935,6 +11935,7 @@
 			<c>
 				<c>
 					<f>2</f>
+					<parameter>Количество</parameter>
 				</c>
 			</c>
 			<c>
@@ -13912,6 +13913,7 @@
 				<i>24</i>
 				<c>
 					<f>2</f>
+					<parameter>Количество</parameter>
 				</c>
 			</c>
 			<c>
@@ -35470,6 +35472,7 @@ RyuctgAAAABJRU5ErkJggg==</picture>
 					<i>24</i>
 					<c>
 						<f>2</f>
+						<parameter>Количество</parameter>
 					</c>
 				</c>
 				<c>
