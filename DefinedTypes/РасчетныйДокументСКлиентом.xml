@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DefinedType uuid="91f16f33-25df-4ae3-9393-a73acce6d359">
+		<InternalInfo>
+			<xr:GeneratedType name="DefinedType.РасчетныйДокументСКлиентом" category="DefinedType">
+				<xr:TypeId>00380dcf-3537-46c4-8dd4-3f453fa01eac</xr:TypeId>
+				<xr:ValueId>0a51628f-d1ac-4d2d-8319-043f402e93dd</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РасчетныйДокументСКлиентом</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>43666e45-27d2-421c-82cb-ee8f8cfbbd6a</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>cfg:DocumentRef.ВыкупТоваровХранителем</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПередачаТоваровМеждуОрганизациями</v8:Type>
+				<v8:Type>cfg:DocumentRef.АктВыполненныхРабот</v8:Type>
+			</Type>
+		</Properties>
+	</DefinedType>
+</MetaDataObject>

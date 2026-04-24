@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="d2eb0a73-dd38-4aca-944f-e0e6a1e22b88">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РасчетСебестоимостиТоваров" category="Object">
+				<xr:TypeId>cbd2335f-29ce-41f3-be08-5dc83a3556d5</xr:TypeId>
+				<xr:ValueId>0bb60029-8083-40f0-8e61-52156649f282</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РасчетСебестоимостиТоваров" category="Ref">
+				<xr:TypeId>2ac8bde1-9271-4757-bfa8-2f07ee0750d9</xr:TypeId>
+				<xr:ValueId>608863ae-3650-424b-9726-50d3f46d8e67</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РасчетСебестоимостиТоваров" category="Selection">
+				<xr:TypeId>64ad8644-06c2-4f7c-8751-1158939870e3</xr:TypeId>
+				<xr:ValueId>9bb35904-ed6f-4824-98ec-1ec33e231c3d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РасчетСебестоимостиТоваров" category="List">
+				<xr:TypeId>630b99e1-0f03-4e84-bc99-2539e2bc1c05</xr:TypeId>
+				<xr:ValueId>647df38a-6e02-4e3c-930c-443bfacf7dd8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РасчетСебестоимостиТоваров" category="Manager">
+				<xr:TypeId>52a9a908-5b53-4da8-8e73-2bf6ce14d260</xr:TypeId>
+				<xr:ValueId>7f9dcfc2-5515-4882-a9e5-72b620b9a5a2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РасчетСебестоимостиТоваров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>2023b7c3-e16b-4bba-9802-e8eaec058770</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="4517d4c9-2cc7-41f2-a795-5545aceea717">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПредварительныйРасчет</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5b2a9d9f-f341-4e8e-98d0-68b87a872092</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3ec0be7e-60df-4455-9910-99a53deb2ccf">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипЗаписи</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>dde0da4e-ccaa-480f-b12b-ea97bab7dc93</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ТипыЗаписейПартий</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="21791d4a-e623-4d68-8304-f0bb07c135bd">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РасчетСебестоимостиТоваров.Организации" category="TabularSection">
+						<xr:TypeId>8b3edc4d-32b2-4a17-8aaf-481426637b6e</xr:TypeId>
+						<xr:ValueId>9a14fa29-04de-4339-a27a-d2278fe20650</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РасчетСебестоимостиТоваров.Организации" category="TabularSectionRow">
+						<xr:TypeId>e36b516d-2b34-45d7-98a4-91cd976cbb93</xr:TypeId>
+						<xr:ValueId>2b6edfe5-9ca1-4547-9e2e-8533c1ecd226</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организации</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7e4a3e0c-e791-4241-b9b6-dbbb83231b87</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="ddc8e26b-83cb-4f1d-9d63-b16ede43910e">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Организация</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>7d49334c-7bf5-43fe-8902-5143867b732b</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

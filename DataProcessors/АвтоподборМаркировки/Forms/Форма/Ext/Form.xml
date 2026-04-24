@@ -1,0 +1,819 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="ГруппаПериод" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПериодРасширеннаяПодсказка" id="10"/>
+			<ChildItems>
+				<InputField name="ДатаНачала" id="2">
+					<DataPath>ДатаНачала</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>с</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаНачалаКонтекстноеМеню" id="3"/>
+					<ExtendedTooltip name="ДатаНачалаРасширеннаяПодсказка" id="4"/>
+				</InputField>
+				<InputField name="ДатаОкончания" id="5">
+					<DataPath>ДатаОкончания</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>по</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаОкончанияКонтекстноеМеню" id="6"/>
+					<ExtendedTooltip name="ДатаОкончанияРасширеннаяПодсказка" id="7"/>
+				</InputField>
+				<Button name="КнопкаЗаполнить" id="8">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗаполнитьДокументы</CommandName>
+					<ExtendedTooltip name="КнопкаЗаполнитьРасширеннаяПодсказка" id="9"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаНастройки" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНастройкиРасширеннаяПодсказка" id="21"/>
+			<ChildItems>
+				<CheckBoxField name="ЧекОбрабатыватьВетИС" id="12">
+					<DataPath>ОбрабатыватьВетИС</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подконтрольная ВетИС</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЧекОбрабатыватьВетИСКонтекстноеМеню" id="13"/>
+					<ExtendedTooltip name="ЧекОбрабатыватьВетИСРасширеннаяПодсказка" id="14"/>
+				</CheckBoxField>
+				<CheckBoxField name="ЧекОбрабатыватьБезВетИС" id="15">
+					<DataPath>ОбрабатыватьБезВетИС</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Без ВетИС</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЧекОбрабатыватьБезВетИСКонтекстноеМеню" id="16"/>
+					<ExtendedTooltip name="ЧекОбрабатыватьБезВетИСРасширеннаяПодсказка" id="17"/>
+				</CheckBoxField>
+				<CheckBoxField name="ЧекПропускатьОформленные" id="18">
+					<DataPath>ПропускатьОформленные</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пропускать уже оформленные</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЧекПропускатьОформленныеКонтекстноеМеню" id="19"/>
+					<ExtendedTooltip name="ЧекПропускатьОформленныеРасширеннаяПодсказка" id="20"/>
+				</CheckBoxField>
+				<CheckBoxField name="ЧекАвтозавершатьПодбор" id="102">
+					<DataPath>АвтозавершатьПодбор</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Автозаверш. подбора (опасно)</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЧекАвтозавершатьПодборКонтекстноеМеню" id="103"/>
+					<ExtendedTooltip name="ЧекАвтозавершатьПодборРасширеннаяПодсказка" id="104">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Штатное «Завершить проверку» УТ переносит в реализацию результаты подбора и может удалить строки маркируемой продукции данного вида (ВетИС/без), не попавшие в подбор. Включайте только после загрузки формы подбора (ЭП, ИС МТ). Без флага — только открытие окон, завершение вручную в форме.</v8:content>
+							</v8:item>
+						</Title>
+					</ExtendedTooltip>
+					<Events>
+						<Event name="OnChange">АвтозавершатьПодборПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<InputField name="ИнтервалАвтозавершенияСек" id="94">
+					<DataPath>ИнтервалАвтозавершенияСек</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Задерж. авто-заверш., с</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>5</Width>
+					<ContextMenu name="ИнтервалАвтозавершенияСекКонтекстноеМеню" id="95"/>
+					<ExtendedTooltip name="ИнтервалАвтозавершенияСекРасширеннаяПодсказка" id="96"/>
+				</InputField>
+				<InputField name="ИнтервалСторожаСек" id="97">
+					<DataPath>ИнтервалСторожаСек</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сторож, с</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>5</Width>
+					<ContextMenu name="ИнтервалСторожаСекКонтекстноеМеню" id="98"/>
+					<ExtendedTooltip name="ИнтервалСторожаСекРасширеннаяПодсказка" id="99"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаКнопки" id="22">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Управление</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКнопкиРасширеннаяПодсказка" id="30"/>
+			<ChildItems>
+				<Button name="НачатьОбработку" id="23">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.НачатьОбработку</CommandName>
+					<ExtendedTooltip name="НачатьОбработкуРасширеннаяПодсказка" id="24"/>
+				</Button>
+				<Button name="ОстановитьОбработку" id="25">
+					<Type>UsualButton</Type>
+					<Enabled>false</Enabled>
+					<CommandName>Form.Command.ОстановитьОбработку</CommandName>
+					<ExtendedTooltip name="ОстановитьОбработкуРасширеннаяПодсказка" id="26"/>
+				</Button>
+				<InputField name="СостояниеОбработки" id="27">
+					<DataPath>СостояниеОбработки</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Состояние</v8:content>
+						</v8:item>
+					</Title>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>50</MaxWidth>
+					<ContextMenu name="СостояниеОбработкиКонтекстноеМеню" id="28"/>
+					<ExtendedTooltip name="СостояниеОбработкиРасширеннаяПодсказка" id="29"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="ТаблицаДокументов" id="31">
+			<Representation>List</Representation>
+			<DataPath>ТаблицаДокументов</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документы реализации</v8:content>
+				</v8:item>
+			</Title>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТаблицаДокументовКонтекстноеМеню" id="32"/>
+			<AutoCommandBar name="ТаблицаДокументовКоманднаяПанель" id="33">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ТаблицаДокументовРасширеннаяПодсказка" id="34"/>
+			<SearchStringAddition name="ТаблицаДокументовСтрокаПоиска" id="76">
+				<AdditionSource>
+					<Item>ТаблицаДокументов</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаДокументовСтрокаПоискаКонтекстноеМеню" id="77"/>
+				<ExtendedTooltip name="ТаблицаДокументовСтрокаПоискаРасширеннаяПодсказка" id="78"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТаблицаДокументовСостояниеПросмотра" id="79">
+				<AdditionSource>
+					<Item>ТаблицаДокументов</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаДокументовСостояниеПросмотраКонтекстноеМеню" id="80"/>
+				<ExtendedTooltip name="ТаблицаДокументовСостояниеПросмотраРасширеннаяПодсказка" id="81"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТаблицаДокументовУправлениеПоиском" id="82">
+				<AdditionSource>
+					<Item>ТаблицаДокументов</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаДокументовУправлениеПоискомКонтекстноеМеню" id="83"/>
+				<ExtendedTooltip name="ТаблицаДокументовУправлениеПоискомРасширеннаяПодсказка" id="84"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<CheckBoxField name="ТДВыбор" id="35">
+					<DataPath>ТаблицаДокументов.Выбор</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>☑</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ТДВыборКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ТДВыборРасширеннаяПодсказка" id="37"/>
+				</CheckBoxField>
+				<InputField name="ТДНомер" id="38">
+					<DataPath>ТаблицаДокументов.Номер</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>12</MaxWidth>
+					<ContextMenu name="ТДНомерКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ТДНомерРасширеннаяПодсказка" id="40"/>
+				</InputField>
+				<InputField name="ТДДата" id="41">
+					<DataPath>ТаблицаДокументов.Дата</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>15</MaxWidth>
+					<ContextMenu name="ТДДатаКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="ТДДатаРасширеннаяПодсказка" id="43"/>
+				</InputField>
+				<InputField name="ТДКонтрагент" id="44">
+					<DataPath>ТаблицаДокументов.Контрагент</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контрагент</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТДКонтрагентКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ТДКонтрагентРасширеннаяПодсказка" id="46"/>
+				</InputField>
+				<InputField name="ТДСтатусВетИС" id="47">
+					<DataPath>ТаблицаДокументов.СтатусВетИС</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ВетИС</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>15</MaxWidth>
+					<ContextMenu name="ТДСтатусВетИСКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="ТДСтатусВетИСРасширеннаяПодсказка" id="49"/>
+				</InputField>
+				<InputField name="ТДСтатусБезВетИС" id="50">
+					<DataPath>ТаблицаДокументов.СтатусБезВетИС</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Без ВетИС</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>15</MaxWidth>
+					<ContextMenu name="ТДСтатусБезВетИСКонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="ТДСтатусБезВетИСРасширеннаяПодсказка" id="52"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<Table name="ЖурналОбработки" id="60">
+			<Representation>List</Representation>
+			<DataPath>ЖурналОбработки</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Журнал обработки</v8:content>
+				</v8:item>
+			</Title>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ЖурналОбработкиКонтекстноеМеню" id="61"/>
+			<AutoCommandBar name="ЖурналОбработкиКоманднаяПанель" id="62">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ЖурналОбработкиРасширеннаяПодсказка" id="63"/>
+			<SearchStringAddition name="ЖурналОбработкиСтрокаПоиска" id="85">
+				<AdditionSource>
+					<Item>ЖурналОбработки</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ЖурналОбработкиСтрокаПоискаКонтекстноеМеню" id="86"/>
+				<ExtendedTooltip name="ЖурналОбработкиСтрокаПоискаРасширеннаяПодсказка" id="87"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ЖурналОбработкиСостояниеПросмотра" id="88">
+				<AdditionSource>
+					<Item>ЖурналОбработки</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ЖурналОбработкиСостояниеПросмотраКонтекстноеМеню" id="89"/>
+				<ExtendedTooltip name="ЖурналОбработкиСостояниеПросмотраРасширеннаяПодсказка" id="90"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ЖурналОбработкиУправлениеПоиском" id="91">
+				<AdditionSource>
+					<Item>ЖурналОбработки</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ЖурналОбработкиУправлениеПоискомКонтекстноеМеню" id="92"/>
+				<ExtendedTooltip name="ЖурналОбработкиУправлениеПоискомРасширеннаяПодсказка" id="93"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="ЖВремя" id="64">
+					<DataPath>ЖурналОбработки.Время</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Время</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>10</MaxWidth>
+					<ContextMenu name="ЖВремяКонтекстноеМеню" id="65"/>
+					<ExtendedTooltip name="ЖВремяРасширеннаяПодсказка" id="66"/>
+				</InputField>
+				<InputField name="ЖДокумент" id="67">
+					<DataPath>ЖурналОбработки.Документ</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Документ</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>20</MaxWidth>
+					<ContextMenu name="ЖДокументКонтекстноеМеню" id="68"/>
+					<ExtendedTooltip name="ЖДокументРасширеннаяПодсказка" id="69"/>
+				</InputField>
+				<InputField name="ЖДействие" id="70">
+					<DataPath>ЖурналОбработки.Действие</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Действие</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>25</MaxWidth>
+					<ContextMenu name="ЖДействиеКонтекстноеМеню" id="71"/>
+					<ExtendedTooltip name="ЖДействиеРасширеннаяПодсказка" id="72"/>
+				</InputField>
+				<InputField name="ЖРезультат" id="73">
+					<DataPath>ЖурналОбработки.Результат</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Результат</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ЖРезультатКонтекстноеМеню" id="74"/>
+					<ExtendedTooltip name="ЖРезультатРасширеннаяПодсказка" id="75"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ДатаНачала" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата начала</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДатаОкончания" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата окончания</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ОбрабатыватьВетИС" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обрабатывать ВетИС</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ОбрабатыватьБезВетИС" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обрабатывать без ВетИС</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПропускатьОформленные" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пропускать оформленные</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ИнтервалАвтозавершенияСек" id="100">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Интервал авто-завершения, с</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>4</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ИнтервалСторожаСек" id="101">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Интервал сторожа, с</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>4</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="АвтозавершатьПодбор" id="105">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Автозавершать подбор</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СостояниеОбработки" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состояние обработки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>200</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекущийИндексДокумента" id="8">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ОбработкаАктивна" id="9">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ОжидаемОтветОтФормы" id="12">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТаблицаДокументов" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таблица документов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Выбор" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выбор</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Ссылка" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ссылка</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:DocumentRef.РеализацияТоваровУслуг</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Дата" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Column>
+				<Column name="Номер" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Контрагент" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контрагент</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>150</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Организация" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Организация</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Склад" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Склад</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Column>
+				<Column name="СтатусВетИС" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус ВетИС</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="СтатусБезВетИС" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус без ВетИС</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ВетИСОбработан" id="10">
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="БезВетИСОбработан" id="11">
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ЖурналОбработки" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Журнал обработки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Время" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Время</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Column>
+				<Column name="Документ" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Документ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Действие" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Действие</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Результат" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Результат</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>200</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗаполнитьДокументы" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить список документов реализации за указанный период</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьДокументы</Action>
+		</Command>
+		<Command name="НачатьОбработку" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Начать обработку</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить последовательный подбор маркировки для выбранных документов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НачатьОбработку</Action>
+		</Command>
+		<Command name="ОстановитьОбработку" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остановить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остановить обработку после завершения текущего документа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОстановитьОбработку</Action>
+		</Command>
+	</Commands>
+</Form>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="5561c80f-c1ef-45f5-a0a3-62361422fef0">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПередачаТоваровМеждуОрганизациями" category="Object">
+				<xr:TypeId>01c04e65-1437-43aa-a941-b7ac351d493d</xr:TypeId>
+				<xr:ValueId>bcafcf4f-518f-4fe1-972e-54cf35d84242</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПередачаТоваровМеждуОрганизациями" category="Ref">
+				<xr:TypeId>8f72da28-29a0-466a-a81e-a3900cd39d28</xr:TypeId>
+				<xr:ValueId>140ede55-7579-4116-95a7-3fc6fc89401f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПередачаТоваровМеждуОрганизациями" category="Selection">
+				<xr:TypeId>5bf706c2-488a-4b81-aef5-475e50caab6b</xr:TypeId>
+				<xr:ValueId>7ba69496-1907-4214-87bf-030983f08070</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПередачаТоваровМеждуОрганизациями" category="List">
+				<xr:TypeId>98ce7647-a14a-42db-a4f6-29ca4ebe9375</xr:TypeId>
+				<xr:ValueId>ab11d6b8-4d30-47d3-8d02-8efeb6676bf9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПередачаТоваровМеждуОрганизациями" category="Manager">
+				<xr:TypeId>4e2f29b2-b079-4df3-8fe9-cfee494802ab</xr:TypeId>
+				<xr:ValueId>5d77a90c-0491-4063-b00a-865192760743</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПередачаТоваровМеждуОрганизациями</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>72b83c8f-0045-4910-bcc8-b09974e023b3</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="f43ff0f9-3b87-4ceb-bf1f-03b706d45248">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПорядокРасчетов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>be7e698a-66a7-413d-9dcc-13f31d0f0d87</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ПорядокРасчетов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="cd76e2bc-49d9-4ffe-b794-c3f0864c16fe">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ФормыОплаты" category="Ref">
+				<xr:TypeId>b72701e0-870d-4e08-aeca-689c5a7c2aef</xr:TypeId>
+				<xr:ValueId>918a03a7-0daa-449c-a231-c47af8282be0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ФормыОплаты" category="Manager">
+				<xr:TypeId>af88dd8e-1f7b-4245-8fe1-4c9d283ec373</xr:TypeId>
+				<xr:ValueId>fa931adf-80a0-4b06-88df-fc4dc35d666c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ФормыОплаты" category="List">
+				<xr:TypeId>39cc54dc-3915-42d0-b909-fa5da852ba8f</xr:TypeId>
+				<xr:ValueId>fa33f03d-4f85-4128-9de7-21a556b8077e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ФормыОплаты</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8cd09e10-4636-4941-882a-e1d11a583f37</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="163ee258-3428-47f2-94ea-cd6b1aadf97e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Наличная</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d450cea1-6bc0-427b-b3f6-68344c8dba57</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

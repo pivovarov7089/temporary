@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="e4448522-ef72-4668-b998-f08dd812ee1a">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВыкупТоваровХранителем" category="Object">
+				<xr:TypeId>d9c7f7df-24e8-42c9-b549-f6052296b457</xr:TypeId>
+				<xr:ValueId>6aff92ae-0b89-4e66-859e-e57d5ba0ba0f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВыкупТоваровХранителем" category="Ref">
+				<xr:TypeId>60b299b6-554c-4e0b-a3d9-f248a64411ff</xr:TypeId>
+				<xr:ValueId>88d636ac-e973-4547-bc17-be2f615012e6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВыкупТоваровХранителем" category="Selection">
+				<xr:TypeId>4414d27e-4b0f-4054-8159-7a8e791b3fed</xr:TypeId>
+				<xr:ValueId>428f54b9-40f7-47ca-9c80-5d7034729f30</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВыкупТоваровХранителем" category="List">
+				<xr:TypeId>9954b919-a54c-4aba-8260-01bf578a065e</xr:TypeId>
+				<xr:ValueId>6838dbf4-c9e3-4663-b505-9412ecd6e19a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВыкупТоваровХранителем" category="Manager">
+				<xr:TypeId>b21dfc8d-c181-4753-b537-e5f8be01e8c1</xr:TypeId>
+				<xr:ValueId>1ae99764-8c57-463b-a188-d9cd72c44725</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВыкупТоваровХранителем</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>76a33c9b-db58-4abc-a80e-87fd274c4600</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="0cba0d9f-77df-47c2-82b9-54cbccae921c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПорядокРасчетов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ffa64fa6-24ab-423f-8ff4-36d601a1455d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ПорядокРасчетов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

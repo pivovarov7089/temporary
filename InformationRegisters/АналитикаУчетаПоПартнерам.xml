@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="d5d0b8bc-2e52-4971-b0a1-36d6d3f6e53d">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.АналитикаУчетаПоПартнерам" category="Record">
+				<xr:TypeId>2910251c-f7f9-4825-8557-46f216d9c328</xr:TypeId>
+				<xr:ValueId>b30a4741-e6ab-4944-b41c-857c4505ed1b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.АналитикаУчетаПоПартнерам" category="Manager">
+				<xr:TypeId>831053ae-0e5b-465e-be03-01e9fc70253f</xr:TypeId>
+				<xr:ValueId>d890c281-ca93-4807-8ecb-b1629d203e32</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.АналитикаУчетаПоПартнерам" category="Selection">
+				<xr:TypeId>d477c47b-8917-45b6-92d0-37363206f039</xr:TypeId>
+				<xr:ValueId>758126ab-3eb7-4930-b012-305e81be9893</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.АналитикаУчетаПоПартнерам" category="List">
+				<xr:TypeId>d674e2d4-b308-4ede-aa01-58e66c4d3fbe</xr:TypeId>
+				<xr:ValueId>288d4292-df6d-4d2c-8a49-cc48e70fef01</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.АналитикаУчетаПоПартнерам" category="RecordSet">
+				<xr:TypeId>d4c1824a-8c0d-46b4-b90c-760c6bb1e001</xr:TypeId>
+				<xr:ValueId>44874b89-3e1c-4f76-88a8-73031be89c50</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.АналитикаУчетаПоПартнерам" category="RecordKey">
+				<xr:TypeId>32fac2f4-042d-46ce-b40a-a7b229a5b9cf</xr:TypeId>
+				<xr:ValueId>5c943a4a-fbfd-4b1d-b461-06089eea9d69</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.АналитикаУчетаПоПартнерам" category="RecordManager">
+				<xr:TypeId>ebeeb221-f139-49f0-a7c4-eee038dbec02</xr:TypeId>
+				<xr:ValueId>f213f429-5698-4460-aa67-9c6166eda1d8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АналитикаУчетаПоПартнерам</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>07f6396e-85dd-4872-b63a-5a338145a279</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="9364334d-08c1-4c5d-b3a5-8574fb6c0b60">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КлючАналитики</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bf73ad1b-dd32-4ae7-b5d4-bfbb2d5faf2c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КлючиАналитикиУчетаПоПартнерам</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="13a69d19-38f3-46c7-9f24-4dccd4ce6530">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8405d6a4-a845-4ac6-ae27-40af6f5e486b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="6fed2fd7-69b0-49f3-b763-29cf774bef0a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Партнер</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ce4afc20-8505-46d5-a85c-838839d5e4af</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Партнеры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

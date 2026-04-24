@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="33415d0e-f04c-4780-84cc-c1663e2b8b4b">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.НомераГТД" category="Object">
+				<xr:TypeId>81166fe8-be96-480e-b5f7-079379e189a5</xr:TypeId>
+				<xr:ValueId>c58627b8-6a23-4a1c-a149-8de926757bc9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.НомераГТД" category="Ref">
+				<xr:TypeId>849faaba-dd62-4fff-afbd-5b40fc5805b1</xr:TypeId>
+				<xr:ValueId>750b598c-5e26-4519-9548-da6783541ce7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.НомераГТД" category="Selection">
+				<xr:TypeId>2a243794-eb38-498e-ac81-7e97f72f62bf</xr:TypeId>
+				<xr:ValueId>a8a6b1e2-23a8-4909-918f-bd62ed0c2d02</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.НомераГТД" category="List">
+				<xr:TypeId>865f739f-abcd-4844-a58d-388791456b21</xr:TypeId>
+				<xr:ValueId>4568c4ff-2087-4486-8aa8-585536d94776</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.НомераГТД" category="Manager">
+				<xr:TypeId>d105d03f-4507-46e5-b110-0006a9b14589</xr:TypeId>
+				<xr:ValueId>0259fbd6-5d85-4a4d-8bc4-9f013ce28459</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НомераГТД</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>72ca17a9-10df-4067-a958-2977ca513486</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="35e3f999-ca4c-4f7d-b1b1-4faca0c67977">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипНомераГТД</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>90b7fb61-2c1c-4018-b214-2add711e5b85</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ТипыНомеровГТД</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a9c8f742-7509-4714-8993-b9483ea6aa6c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РегистрационныйНомер</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b4119fb6-9657-43d8-b624-3cfaafd920e1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>29</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="a23ee2df-bd93-4fb9-ab5e-9132092cab93">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.НомераГТД.ПрослеживаемыеКомплектующие" category="TabularSection">
+						<xr:TypeId>42402148-03d4-4a31-9ef7-dc4e58dc56c4</xr:TypeId>
+						<xr:ValueId>5cfc27b4-0132-4752-b5a4-29cf6bdc6b98</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.НомераГТД.ПрослеживаемыеКомплектующие" category="TabularSectionRow">
+						<xr:TypeId>83ed6f3d-703f-4d88-b0de-9796fb291211</xr:TypeId>
+						<xr:ValueId>ddf12c24-aec8-4d0e-9c52-4641e841501e</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПрослеживаемыеКомплектующие</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8f4c3afb-9671-4c06-95f3-5c916487c4a2</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="63c056c6-4851-48cb-8242-abb50e979740">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>НомерРНПТ</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>df172088-e8c3-48c6-b18b-b9dbbda04a45</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.НомераГТД</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="496e4180-7625-4eff-b883-0b409660bacc">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>КоличествоПоРНПТ</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>04181142-b1eb-409a-8afd-4faa4bc67f1f</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>23</v8:Digits>
+									<v8:FractionDigits>11</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="e3f0c851-b20a-4139-aa70-55e1c2200fe4">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ЕдиницаИзмеренияТНВЭД</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>d5be7cd4-751b-4bac-bf34-ce7703014277</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.УпаковкиЕдиницыИзмерения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

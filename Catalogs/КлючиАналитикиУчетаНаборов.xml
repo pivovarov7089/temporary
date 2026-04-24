@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="ac2b8231-ddbd-47ba-aac5-524afbbfcc08">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КлючиАналитикиУчетаНаборов" category="Object">
+				<xr:TypeId>ee8c9921-5c0d-4662-93b2-9956efeb9edf</xr:TypeId>
+				<xr:ValueId>3ff94781-ca82-47ec-978c-e6aec841b11c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КлючиАналитикиУчетаНаборов" category="Ref">
+				<xr:TypeId>5dbce1d3-1c3d-4e15-ade0-d7cce26a6d15</xr:TypeId>
+				<xr:ValueId>cf6f166a-db5f-4cd0-9b81-883013e71faf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КлючиАналитикиУчетаНаборов" category="Selection">
+				<xr:TypeId>02728a27-9bcb-4519-94ae-e873b6f7ec5d</xr:TypeId>
+				<xr:ValueId>56269f10-9c9d-4e73-ba96-4dfb4c6dd6a2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КлючиАналитикиУчетаНаборов" category="List">
+				<xr:TypeId>7daf41a8-d09c-4ec9-8076-2cdfab6c8eb2</xr:TypeId>
+				<xr:ValueId>01f2eb04-b4fd-4cb4-aa08-937f794fef17</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КлючиАналитикиУчетаНаборов" category="Manager">
+				<xr:TypeId>675992ed-d0dd-4929-a516-bda1c59a4139</xr:TypeId>
+				<xr:ValueId>b0dc0933-d22a-4bcd-b81f-6983f4b4b3d1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КлючиАналитикиУчетаНаборов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7d0ba83d-4c92-400d-bbd9-03dd6cf4558d</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="715891ab-ccb4-45fd-9b5b-ccc276ca396b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НоменклатураНабора</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f94f2479-29f4-4649-bded-3dfaca4a9bd2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ce09163d-fc08-4af0-b015-fa6aaf9b540f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ХарактеристикаНабора</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ea60521b-8210-4687-b25c-82dc16092e57</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="30418fe8-8649-4bc7-95fe-118d4db2cf93">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыЗаказовКлиентов" category="Ref">
+				<xr:TypeId>335087f4-95dc-4064-bdeb-834408441090</xr:TypeId>
+				<xr:ValueId>345034d6-1b6b-4406-b8fe-96a736c6df43</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыЗаказовКлиентов" category="Manager">
+				<xr:TypeId>3c1f7788-e174-47e1-a9b7-3d1e06a3bc88</xr:TypeId>
+				<xr:ValueId>8993fcbd-8130-453c-a53a-7b175e59265b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыЗаказовКлиентов" category="List">
+				<xr:TypeId>96fdcaf8-8936-42eb-9f5f-97767c756c13</xr:TypeId>
+				<xr:ValueId>8082f998-8879-4bd3-9a8e-7f6d70a73008</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатусыЗаказовКлиентов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>615d6400-a0e4-494a-ab8f-fb30f2da2d58</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="724441fb-7622-4304-a448-a92612e64e26">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КОбеспечению</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>17f46797-d9e2-4711-b58f-438fd9fb9fcb</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

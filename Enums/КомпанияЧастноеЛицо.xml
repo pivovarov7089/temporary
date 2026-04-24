@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="8847af7e-2237-4a76-86c6-dc5ad7c8abb8">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.КомпанияЧастноеЛицо" category="Ref">
+				<xr:TypeId>65cb9ca5-7cf4-4a72-a3ec-4519097213f9</xr:TypeId>
+				<xr:ValueId>7feccae6-58a5-4ad1-b110-6af8daa50cc1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.КомпанияЧастноеЛицо" category="Manager">
+				<xr:TypeId>8dd56dd6-ee1d-4ec9-895e-79450f7671ee</xr:TypeId>
+				<xr:ValueId>db58b8eb-0fe4-40f4-b789-b27539ae605a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.КомпанияЧастноеЛицо" category="List">
+				<xr:TypeId>fc29f50b-6338-4cc4-be22-78eb10bd92fc</xr:TypeId>
+				<xr:ValueId>4bc00ec1-1df2-4b68-8d44-5e9c62484353</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КомпанияЧастноеЛицо</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>552f0508-9b80-4fec-9ba5-fcd38569861a</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="5d008c59-c63c-4152-948a-b45b301533bd">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЧастноеЛицо</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>640f3f70-7e8d-48fb-8487-fda65cb57f60</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6de93d22-5dd7-46d2-96e2-68b82a57a3a5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Компания</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>af9cb34d-d5ea-4de1-a7d6-999e6bd67541</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

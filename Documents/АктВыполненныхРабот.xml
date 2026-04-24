@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="b2ad393e-b7a9-466b-aa19-550fa1c54e31">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.АктВыполненныхРабот" category="Object">
+				<xr:TypeId>b20a3c47-c0ea-419e-86e2-101a10c64686</xr:TypeId>
+				<xr:ValueId>5e5bfcf6-5b42-48b2-8235-4f1bc462aed2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.АктВыполненныхРабот" category="Ref">
+				<xr:TypeId>a353c729-d00f-4a30-94f3-fb3b7c9e8315</xr:TypeId>
+				<xr:ValueId>b4d4926c-2977-45ce-8173-784e2600b9b2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.АктВыполненныхРабот" category="Selection">
+				<xr:TypeId>bd93d374-5a22-48c9-930b-9da1e0ea98a6</xr:TypeId>
+				<xr:ValueId>c2635165-342d-4c4f-a0ba-e4f6e021cc2d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.АктВыполненныхРабот" category="List">
+				<xr:TypeId>96aa67b8-6f11-4fae-9b8a-af3eb568c904</xr:TypeId>
+				<xr:ValueId>3b517408-ee20-428f-bb55-bc7fa362d154</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.АктВыполненныхРабот" category="Manager">
+				<xr:TypeId>f85828ee-11ff-4cb5-9a0b-2c54075cdea2</xr:TypeId>
+				<xr:ValueId>137d2b48-42c9-48af-b7f7-750ceb006b1c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АктВыполненныхРабот</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d2275b5d-ab87-483e-b252-2de5d94fc643</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="fe21cd83-6d8d-4fb6-8684-d2249789ba02">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПорядокРасчетов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e1f71916-56ba-4894-8de7-117ff40dc4f5</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ПорядокРасчетов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

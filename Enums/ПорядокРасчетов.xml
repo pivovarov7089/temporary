@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="75ab6b70-fdf0-4fd5-99bc-7315f4e1fe6f">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПорядокРасчетов" category="Ref">
+				<xr:TypeId>55c8013a-2ed4-45c0-931d-5ba5f3c6ba46</xr:TypeId>
+				<xr:ValueId>c47913da-8078-47de-b545-c7a180fa62d0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПорядокРасчетов" category="Manager">
+				<xr:TypeId>a59269e4-c0d2-4f09-afbc-e9aeaaab47f8</xr:TypeId>
+				<xr:ValueId>a5049c7c-7024-4ff0-93df-e23a7b9453d3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПорядокРасчетов" category="List">
+				<xr:TypeId>622b724b-baf6-460f-95ce-1805da305dc1</xr:TypeId>
+				<xr:ValueId>fababe2d-f72a-458e-b3be-1b146c509812</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПорядокРасчетов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>9b333cc3-56b6-4b71-8111-6ac5626fa947</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

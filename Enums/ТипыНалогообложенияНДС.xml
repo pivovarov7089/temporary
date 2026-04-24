@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="555fc0cc-cb35-4872-97e2-fc995f17164e">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыНалогообложенияНДС" category="Ref">
+				<xr:TypeId>77a4a9af-ffb5-43ce-adc0-b35ae7be319f</xr:TypeId>
+				<xr:ValueId>213408d3-02a9-45d8-a1bc-83a741e45194</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыНалогообложенияНДС" category="Manager">
+				<xr:TypeId>40cf8669-15e2-4390-b44a-980242853095</xr:TypeId>
+				<xr:ValueId>75699f5a-7709-489a-a4ba-8d315bdb6f3b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыНалогообложенияНДС" category="List">
+				<xr:TypeId>71ca1fb9-9b75-4f26-a201-8722b4502393</xr:TypeId>
+				<xr:ValueId>050b26ba-03ef-422f-8a7f-aa0c40e0d813</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыНалогообложенияНДС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>492f859c-898a-4672-ab31-9d0ca13acabc</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

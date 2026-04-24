@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="8550b1df-50ea-4b2e-ad5d-6319f9f14b96">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СегментыПартнеров" category="Object">
+				<xr:TypeId>fcc05093-ab1f-478f-ad6e-e4b787ba37da</xr:TypeId>
+				<xr:ValueId>33732f1a-4191-40b8-a15d-07a8dcdbb85a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СегментыПартнеров" category="Ref">
+				<xr:TypeId>90da6bf8-5f3d-4f49-9b66-df52f32d87d4</xr:TypeId>
+				<xr:ValueId>1fa2755e-58d3-4768-8a8f-9ad6c0a49ac6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СегментыПартнеров" category="Selection">
+				<xr:TypeId>d7bca613-d8e5-4cf3-8af5-da7952964028</xr:TypeId>
+				<xr:ValueId>09f0e271-bff1-4723-8ae5-190edf296ee2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СегментыПартнеров" category="List">
+				<xr:TypeId>f00ee7c6-ce49-47b6-b7a9-17488b40598e</xr:TypeId>
+				<xr:ValueId>145d3741-bd20-493a-bc37-425fb59a6a52</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СегментыПартнеров" category="Manager">
+				<xr:TypeId>da3b6003-3285-4827-a3f6-fd215e1a8601</xr:TypeId>
+				<xr:ValueId>1e460ffb-d09f-4fd1-8936-1f8ff1887080</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СегментыПартнеров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4bb82865-af34-45b8-8b8f-1ab628962dc7</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>
