@@ -11718,6 +11718,7 @@
 			<c>
 				<c>
 					<f>111</f>
+					<parameter>Количество</parameter>
 				</c>
 			</c>
 			<c>
@@ -13710,6 +13711,7 @@
 			<c>
 				<c>
 					<f>111</f>
+					<parameter>Количество</parameter>
 				</c>
 			</c>
 			<c>
