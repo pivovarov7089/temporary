@@ -202,10 +202,15 @@
 			<CommandName>Form.Command.СформироватьЗаявкуБезОтправки</CommandName>
 			<ExtendedTooltip name="СформироватьЗаявкуБезОтправкиРасширеннаяПодсказка" id="72"/>
 		</Button>
-		<Button name="ПечатьПакетаДокументов" id="40">
+		<Button name="ПечатьПакетаАвтоматически" id="40">
 			<Type>UsualButton</Type>
-			<CommandName>Form.Command.ПечатьПакетаДокументов</CommandName>
-			<ExtendedTooltip name="ПечатьПакетаДокументовРасширеннаяПодсказка" id="41"/>
+			<CommandName>Form.Command.ПечатьПакетаАвтоматически</CommandName>
+			<ExtendedTooltip name="ПечатьПакетаАвтоматическиРасширеннаяПодсказка" id="41"/>
+		</Button>
+		<Button name="ПечатьПакетаВручную" id="73">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ПечатьПакетаВручную</CommandName>
+			<ExtendedTooltip name="ПечатьПакетаВручнуюРасширеннаяПодсказка" id="74"/>
 		</Button>
 	</ChildItems>
 	<Attributes>
@@ -292,20 +297,35 @@
 			</ToolTip>
 			<Action>ОтпавитьДокументы</Action>
 		</Command>
-		<Command name="ПечатьПакетаДокументов" id="2">
+		<Command name="ПечатьПакетаАвтоматически" id="2">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Печать пакета документов</v8:content>
+					<v8:content>Пакет: автопечать</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Печать пакета документов</v8:content>
+					<v8:content>Маршрутный лист, реализация, УПД, СФ, ПКО — сразу на принтер (без диалога печати)</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>ПечатьПакетаДокументов</Action>
+			<Action>ПечатьПакетаАвтоматически</Action>
+		</Command>
+		<Command name="ПечатьПакетаВручную" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пакет: вручную</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Диалог печати для накладных/ПКО; УПД и СФ — через стандартную форму печати БСП</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПечатьПакетаВручную</Action>
 		</Command>
 		<Command name="ВывестиМаршрутныйЛист" id="3">
 			<Title>
