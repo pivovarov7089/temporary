@@ -159,6 +159,7 @@
 			<DataProcessor>ПечатьОбщихФорм</DataProcessor>
 			<DataProcessor>ЗагрузкаМорозилокИзТаблиц</DataProcessor>
 			<DataProcessor>АвтоподборМаркировки</DataProcessor>
+			<DataProcessor>ПроверкаИПодборПродукцииИСМП</DataProcessor>
 			<InformationRegister>НоменклатураСегмента</InformationRegister>
 			<InformationRegister>ПартнерыСегмента</InformationRegister>
 			<InformationRegister>СтоимостьТоваров</InformationRegister>

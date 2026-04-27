@@ -193,6 +193,9 @@
 		<Metadata name="DataProcessor.ИмпортОтветаОтПоставщика.Form.Форма.Form" id="715dc8dd-d1fa-4c61-b592-ce9cd6db1304.0" configVersion="48e210ed329b7f4875c0275ecd54f175c4adab03"/>
 		<Metadata name="DataProcessor.ПечатьОбщихФорм" id="47877419-471a-46e4-9f2a-70f88613e1b5" configVersion="3e0c3e3d71900283a9b9cd5775f65f376077b25b"/>
 		<Metadata name="DataProcessor.ПечатьОбщихФорм.ManagerModule" id="47877419-471a-46e4-9f2a-70f88613e1b5.2" configVersion="37445e90e12aa37c35d51a40491ec5feb074c3fb"/>
+		<Metadata name="DataProcessor.ПроверкаИПодборПродукцииИСМП" id="9a3cf19b-91fd-48e6-80ff-6456ac260df4" configVersion="60ec3db18b6df8e1b55f779a88b0d8aa0fc425e4"/>
+		<Metadata name="DataProcessor.ПроверкаИПодборПродукцииИСМП.Form.ПроверкаИПодбор" id="8dbab3bc-92a4-4b1e-94ec-7d13b820ad6a" configVersion="c6d2290c8e4fdde8d19a5d1f3c59caa4a44d278e"/>
+		<Metadata name="DataProcessor.ПроверкаИПодборПродукцииИСМП.Form.ПроверкаИПодбор.Form" id="8dbab3bc-92a4-4b1e-94ec-7d13b820ad6a.0" configVersion="4274d0d4c6db62530f6b9740a68a68b3ef3d8d7a"/>
 		<Metadata name="DataProcessor.СоздаениеРейсов" id="247489e8-7d5d-4d50-a7f5-b4d43792197a" configVersion="f44e0c15db19b9e32c8dc4d52d1e49fb32bc2811"/>
 		<Metadata name="DataProcessor.СоздаениеРейсов.Form.Форма" id="1e9b5b23-fd1b-4b24-b13d-cdfd25c90034" configVersion="057884c9ed827f05cf067b2e2ba7ddff05c3eaa0"/>
 		<Metadata name="DataProcessor.СоздаениеРейсов.Form.Форма.Form" id="1e9b5b23-fd1b-4b24-b13d-cdfd25c90034.0" configVersion="3cdbd0c0f28ea74bd8a2733bf0717e16367e08f0"/>

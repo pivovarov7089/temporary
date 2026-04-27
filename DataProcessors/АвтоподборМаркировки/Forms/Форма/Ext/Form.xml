@@ -102,7 +102,7 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Автозаверш. подбора (опасно)</v8:content>
+							<v8:content>Автозаверш. подбора</v8:content>
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
@@ -112,7 +112,7 @@
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
-								<v8:content>Штатное «Завершить проверку» УТ переносит в реализацию результаты подбора и может удалить строки маркируемой продукции данного вида (ВетИС/без), не попавшие в подбор. Включайте только после загрузки формы подбора (ЭП, ИС МТ). Без флага — только открытие окон, завершение вручную в форме.</v8:content>
+								<v8:content>Автоматически нажимает завершение подбора после указанной задержки. Задержку лучше оставлять с запасом, чтобы форма подбора успела загрузить данные ИС МП.</v8:content>
 							</v8:item>
 						</Title>
 					</ExtendedTooltip>
@@ -199,6 +199,18 @@
 			<ContextMenu name="ТаблицаДокументовКонтекстноеМеню" id="32"/>
 			<AutoCommandBar name="ТаблицаДокументовКоманднаяПанель" id="33">
 				<Autofill>false</Autofill>
+				<ChildItems>
+					<Button name="ТаблицаДокументовВыбратьВсе" id="106">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ВыбратьВсеДокументы</CommandName>
+						<ExtendedTooltip name="ТаблицаДокументовВыбратьВсеРасширеннаяПодсказка" id="107"/>
+					</Button>
+					<Button name="ТаблицаДокументовСнятьВыбор" id="108">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.СнятьВыборДокументов</CommandName>
+						<ExtendedTooltip name="ТаблицаДокументовСнятьВыборРасширеннаяПодсказка" id="109"/>
+					</Button>
+				</ChildItems>
 			</AutoCommandBar>
 			<ExtendedTooltip name="ТаблицаДокументовРасширеннаяПодсказка" id="34"/>
 			<SearchStringAddition name="ТаблицаДокументовСтрокаПоиска" id="76">
@@ -814,6 +826,36 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОстановитьОбработку</Action>
+		</Command>
+		<Command name="ВыбратьВсеДокументы" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать все</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить флажки выбора у всех документов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыбратьВсеДокументы</Action>
+		</Command>
+		<Command name="СнятьВыборДокументов" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Снять все</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Снять флажки выбора у всех документов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СнятьВыборДокументов</Action>
 		</Command>
 	</Commands>
 </Form>
