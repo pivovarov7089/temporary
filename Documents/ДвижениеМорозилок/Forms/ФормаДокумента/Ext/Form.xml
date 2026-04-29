@@ -132,13 +132,11 @@
 				</InputField>
 				<InputField name="МорозилкиМорозилкаИнвентарныйНомер" id="65">
 					<DataPath>Объект.Морозилки.МорозилкаИнвентарныйНомер</DataPath>
+					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="МорозилкиМорозилкаИнвентарныйНомерКонтекстноеМеню" id="66"/>
 					<ExtendedTooltip name="МорозилкиМорозилкаИнвентарныйНомерРасширеннаяПодсказка" id="67"/>
-					<Events>
-						<Event name="OnChange">МорозилкиМорозилкаИнвентарныйНомерПриИзменении</Event>
-					</Events>
 				</InputField>
 				<InputField name="МорозилкиМорозилкаЗаводскойНомер" id="68">
 					<DataPath>Объект.Морозилки.МорозилкаЗаводскойНомер</DataPath>
