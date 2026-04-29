@@ -301,7 +301,6 @@
 			<InputByString>
 				<xr:Field>Catalog.Морозилки.StandardAttribute.Description</xr:Field>
 				<xr:Field>Catalog.Морозилки.StandardAttribute.Code</xr:Field>
-				<xr:Field>Catalog.Морозилки.Attribute.ИнвентарныйНомер</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
