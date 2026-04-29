@@ -69,6 +69,17 @@
 			<Subsystem>Склад</Subsystem>
 			<StyleItem>НезаполненноеПолеТаблицы</StyleItem>
 			<StyleItem>ИтогиФон</StyleItem>
+			<StyleItem>ЦветТекстаТребуетВниманияГосИС</StyleItem>
+			<StyleItem>ЦветТекстаОтложенаПриПроверкеГосИС</StyleItem>
+			<StyleItem>ЦветТекстаПроблемаГосИС</StyleItem>
+			<CommonPicture>ОтложенаПриПроверкеНаличияГосИС</CommonPicture>
+			<CommonPicture>НеудачнаяПроверкаНаличияГосИС</CommonPicture>
+			<CommonPicture>СтатусыПроверкиНаличияГосИС</CommonPicture>
+			<CommonPicture>ПроверкаНаличияНеВыполняласьГосИС</CommonPicture>
+			<CommonPicture>УспешнаяПроверкаНаличияГосИС</CommonPicture>
+			<CommonPicture>НеЧислиласьОбнаруженаПриПроверкеГосИС</CommonPicture>
+			<CommonPicture>Сумма</CommonPicture>
+			<CommonPicture>МаркируемаяПродукцияТЧ</CommonPicture>
 			<Role>Расш1_УправлениеХолодильниками</Role>
 			<CommonModule>КоннекторHTTPВызовСервера</CommonModule>
 			<CommonModule>ЗагрузкаДанныхИзТаблицКлиент</CommonModule>
