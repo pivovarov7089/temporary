@@ -80,6 +80,39 @@
 				<Event name="OnChange">КудаОбъектПриИзменении</Event>
 			</Events>
 		</InputField>
+		<UsualGroup name="ГруппаБыстрогоДобавленияМорозилки" id="80">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Быстрое добавление морозилки</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаБыстрогоДобавленияМорозилкиРасширеннаяПодсказка" id="81"/>
+			<ChildItems>
+				<InputField name="БыстрыйИнвентарныйНомер" id="82">
+					<DataPath>БыстрыйИнвентарныйНомер</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Инв. номер</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="БыстрыйИнвентарныйНомерКонтекстноеМеню" id="83"/>
+					<ExtendedTooltip name="БыстрыйИнвентарныйНомерРасширеннаяПодсказка" id="84"/>
+					<Events>
+						<Event name="OnChange">БыстрыйИнвентарныйНомерПриИзменении</Event>
+					</Events>
+				</InputField>
+				<Button name="ДобавитьМорозилкуПоИнвентарномуНомеру" id="85">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ДобавитьМорозилкуПоИнвентарномуНомеру</CommandName>
+					<ExtendedTooltip name="ДобавитьМорозилкуПоИнвентарномуНомеруРасширеннаяПодсказка" id="86"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
 		<Table name="Морозилки" id="46">
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
@@ -132,13 +165,11 @@
 				</InputField>
 				<InputField name="МорозилкиМорозилкаИнвентарныйНомер" id="65">
 					<DataPath>Объект.Морозилки.МорозилкаИнвентарныйНомер</DataPath>
+					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="МорозилкиМорозилкаИнвентарныйНомерКонтекстноеМеню" id="66"/>
 					<ExtendedTooltip name="МорозилкиМорозилкаИнвентарныйНомерРасширеннаяПодсказка" id="67"/>
-					<Events>
-						<Event name="OnChange">МорозилкиМорозилкаИнвентарныйНомерПриИзменении</Event>
-					</Events>
 				</InputField>
 				<InputField name="МорозилкиМорозилкаЗаводскойНомер" id="68">
 					<DataPath>Объект.Морозилки.МорозилкаЗаводскойНомер</DataPath>
@@ -272,6 +303,21 @@
 				</AdditionalColumns>
 			</Columns>
 		</Attribute>
+		<Attribute name="БыстрыйИнвентарныйНомер" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Быстрый инвентарный номер</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>50</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ПечатьАкта" id="1">
@@ -288,6 +334,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ПечатьАкта</Action>
+		</Command>
+		<Command name="ДобавитьМорозилкуПоИнвентарномуНомеру" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить по инв. номеру</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить морозилку по инвентарному номеру</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДобавитьМорозилкуПоИнвентарномуНомеру</Action>
 		</Command>
 	</Commands>
 </Form>
