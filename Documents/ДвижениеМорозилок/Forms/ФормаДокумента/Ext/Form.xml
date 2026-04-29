@@ -80,6 +80,34 @@
 				<Event name="OnChange">КудаОбъектПриИзменении</Event>
 			</Events>
 		</InputField>
+		<UsualGroup name="ГруппаБыстрогоДобавленияМорозилки" id="80">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Быстрое добавление</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаБыстрогоДобавленияМорозилкиРасширеннаяПодсказка" id="81"/>
+			<ChildItems>
+				<InputField name="БыстрыйИнвентарныйНомер" id="82">
+					<DataPath>БыстрыйИнвентарныйНомер</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Инв. номер</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="БыстрыйИнвентарныйНомерКонтекстноеМеню" id="83"/>
+					<ExtendedTooltip name="БыстрыйИнвентарныйНомерРасширеннаяПодсказка" id="84"/>
+					<Events>
+						<Event name="OnChange">БыстрыйИнвентарныйНомерПриИзменении</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
 		<Table name="Морозилки" id="46">
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
@@ -269,6 +297,15 @@
 					</Column>
 				</AdditionalColumns>
 			</Columns>
+		</Attribute>
+		<Attribute name="БыстрыйИнвентарныйНомер" id="2">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>50</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
 		</Attribute>
 	</Attributes>
 	<Commands>
