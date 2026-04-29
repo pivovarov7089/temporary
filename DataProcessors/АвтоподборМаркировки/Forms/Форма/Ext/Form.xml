@@ -309,36 +309,6 @@
 					<ContextMenu name="ТДМаркировкаЗаполненаКонтекстноеМеню" id="111"/>
 					<ExtendedTooltip name="ТДМаркировкаЗаполненаРасширеннаяПодсказка" id="112"/>
 				</InputField>
-				<InputField name="ТДСтатусВетИС" id="47">
-					<DataPath>ТаблицаДокументов.СтатусВетИС</DataPath>
-					<ReadOnly>true</ReadOnly>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ВетИС</v8:content>
-						</v8:item>
-					</Title>
-					<EditMode>EnterOnInput</EditMode>
-					<AutoMaxWidth>false</AutoMaxWidth>
-					<MaxWidth>15</MaxWidth>
-					<ContextMenu name="ТДСтатусВетИСКонтекстноеМеню" id="48"/>
-					<ExtendedTooltip name="ТДСтатусВетИСРасширеннаяПодсказка" id="49"/>
-				</InputField>
-				<InputField name="ТДСтатусБезВетИС" id="50">
-					<DataPath>ТаблицаДокументов.СтатусБезВетИС</DataPath>
-					<ReadOnly>true</ReadOnly>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Без ВетИС</v8:content>
-						</v8:item>
-					</Title>
-					<EditMode>EnterOnInput</EditMode>
-					<AutoMaxWidth>false</AutoMaxWidth>
-					<MaxWidth>15</MaxWidth>
-					<ContextMenu name="ТДСтатусБезВетИСКонтекстноеМеню" id="51"/>
-					<ExtendedTooltip name="ТДСтатусБезВетИСРасширеннаяПодсказка" id="52"/>
-				</InputField>
 			</ChildItems>
 		</Table>
 		<Table name="ЖурналОбработки" id="60">
